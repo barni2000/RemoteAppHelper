@@ -1,8 +1,19 @@
 # RemoteAppHelper
 
-# Example Desktop file
+## About
 
-```
+This is a helper application for .rdp files run.
+
+## Dependencies
+
+* python3
+* python-keyring: For kwallet support
+* PyQt5
+* freerdp
+
+## Example Desktop file
+
+``` ini
 [Desktop Entry]
 Comment[en_US]=
 Comment=
@@ -13,7 +24,7 @@ Icon=exec
 MimeType=
 Name[en_US]=Example
 Name=Example
-Path=/home/example/remoteapphelper
+Path=/home/example/remoteapphelper # You should set for the installation directory
 StartupNotify=true
 Terminal=false
 TerminalOptions=
