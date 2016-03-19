@@ -13,7 +13,7 @@ This is a helper application for .rdp files run.
 
 ## Installation
 
-    pyuic5 ui/login_dialog.ui > src ui/login_dialog
+    pyuic5 ui/login_dialog.ui > src/ui_login_dialog.py
 
 ## Example Desktop file
 
