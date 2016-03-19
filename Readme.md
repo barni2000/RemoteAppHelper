@@ -11,6 +11,10 @@ This is a helper application for .rdp files run.
 * PyQt5
 * freerdp
 
+## Installation
+
+    pyuic5 ui/login_dialog.ui > src ui/login_dialog
+
 ## Example Desktop file
 
 ``` ini
